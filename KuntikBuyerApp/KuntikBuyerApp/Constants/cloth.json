@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "title": "Nike Air Max 270 React",
+      "price": 150.0,
+      "description": "The Nike Air Max 270 React combines lightweight, breathable materials with durable traction.",
+      "category": "sneakers",
+      "image": "https://images.asos-media.com/products/nike-air-max-270-trainers-in-triple-black/202506377-1-black?$n_640w$&wid=513&fit=constrain"
+    },
+    {
+      "title": "Adidas Ultraboost 21",
+      "price": 180.0,
+      "description": "The Adidas Ultraboost 21 features a comfortable fit and responsive cushioning.",
+      "category": "sneakers",
+      "image": "https://sneakernews.com/wp-content/uploads/2021/01/adidas-ultraboost-21-triple-black-FY0306-07.jpg"
+    },
+    {
+      "title": "New Balance Fresh Foam 1080v11",
+      "price": 150.0,
+      "description": "The New Balance Fresh Foam 1080v11 is a versatile running shoe with a plush, comfortable fit.",
+      "category": "sneakers",
+      "image": "https://u7q2x7c9.stackpathcdn.com/photos/24/97/371176_2609_XL.jpg"
+    },
+    {
+      "title": "Asics Gel-Kayano 28",
+      "price": 160.0,
+      "description": "The Asics Gel-Kayano 28 offers stability and support for runners with overpronation.",
+      "category": "sneakers",
+      "image": "https://images.asics.com/is/image/asics/1011B189_003_SR_RT_GLB?$sfcc-product$"
+    },
+{
+      "title": "Men's Nike Sportswear T-Shirt",
+      "price": 25.0,
+      "description": "The Nike Sportswear T-Shirt is made with soft cotton for all-day comfort.",
+      "category": "t-shirts",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/tvwyxkblr0ek8cnccixv/sportswear-mens-t-shirt-WMplNS.png"
+    },
+    {
+      "title": "Women's Adidas 3-Stripes T-Shirt",
+      "price": 30.0,
+      "description": "The Adidas 3-Stripes T-Shirt features a classic design and comfortable fit.",
+      "category": "t-shirts",
+      "image": "https://images.asos-media.com/products/adidas-originals-adicolour-three-stripe-t-shirt-in-sky-blue/201764441-1-blue?$n_640w$&wid=513&fit=constrain"
+    },
+    {
+      "title": "Men's Under Armour Tech 2.0 T-Shirt",
+      "price": 25.0,
+      "description": "The Under Armour Tech 2.0 T-Shirt is made with quick-drying, sweat-wicking material.",
+      "category": "t-shirts",
+      "image": "https://underarmour.scene7.com/is/image/Underarmour/V5-1345317-866_FC?rp=standard-0pad|pdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500"
+    },
+    {
+      "title": "Women's Reebok Classics T-Shirt",
+      "price": 28.0,
+      "description": "The Reebok Classics T-Shirt features a relaxed fit and soft cotton material.",
+      "category": "t-shirts",
+      "image": "https://cdn11.bigcommerce.com/s-27joa6hsn8/images/stencil/original/products/4463/14387/14-389223__79222.1659334392.jpg?c=2g"
+    },
+{
+      "title": "Men's Patagonia Better Sweater",
+      "price": 139.0,
+      "description": "The Patagonia Better Sweater is made with 100% recycled materials and features a soft, comfortable feel.",
+      "category": "sweaters",
+      "image": "https://cdn.shopify.com/s/files/1/1038/6190/products/25528xSTONEWASHxPrimary_73964317_2000x.jpg?v=1659076235"
+    },
+    {
+      "title": "Women's North Face TKA Glacier Fleece",
+      "price": 55.0,
+      "description": "The North Face TKA Glacier Fleece offers warmth and comfort in cold weather.",
+      "category": "sweaters",
+      "image": "https://fglprdcdn.azureedge.net/images/555833-73a-1-Large.jpg"
+    },
+    {
+      "title": "Men's Columbia Steens Mountain Fleece",
+      "price": 60.0,
+      "description": "The Columbia Steens Mountain Fleece is made with soft, durable material and features a classic fit.",
+      "category": "sweaters",
+      "image": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WM3220_024_f?wid=768&hei=806&v=1679388927"
+    },
+    {
+      "title": "Women's Arc'teryx Covert Cardigan",
+      "price": 179.0,
+      "description": "The Arc'teryx Covert Cardigan is made with breathable, moisture-wicking material and features a relaxed fit.",
+      "category": "sweaters",
+      "image": "https://m.media-amazon.com/images/I/71pbY0wQo0L._AC_SR736,920_.jpg"
+    },
+    {
+      "title": "Men's Carhartt Midweight Crewneck Sweatshirt",
+      "price": 40.0,
+      "description": "The Carhartt Midweight Crewneck Sweatshirt offers warmth and durability in a classic design.",
+      "category": "sweaters",
+      "image": "https://cdnp.sanmar.com/medias/sys_master/images/images/h7a/h19/10165203075102/9603-Newnavy-4-CTK124NewnavyModel3Q-1200W.jpg"
+    },
+    {
+      "title": "Women's Smartwool Merino 250 Base Layer Crew",
+      "price": 95.0,
+      "description": "The Smartwool Merino 250 Base Layer Crew offers warmth and comfort for cold weather activities.",
+      "category": "sweaters",
+      "image": "https://m.media-amazon.com/images/I/614UkaZlHqL._AC_UY1000_.jpg"
+    }
+  ]
+}

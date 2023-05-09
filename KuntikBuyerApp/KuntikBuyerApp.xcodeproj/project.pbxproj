@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90C9B5929FFD23000025241 /* CustomTabViewSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C9B5829FFD23000025241 /* CustomTabViewSelection.swift */; };
+		B90E410329F9B01B008E1F02 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E410229F9B01B008E1F02 /* Extensions.swift */; };
+		B90E410629F9C722008E1F02 /* CabinetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E410529F9C722008E1F02 /* CabinetModel.swift */; };
+		B90E410929F9C734008E1F02 /* CabinetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E410829F9C734008E1F02 /* CabinetViewModel.swift */; };
+		B925511429F55F38009A95D7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925511329F55F38009A95D7 /* ImageLoader.swift */; };
+		B925511629F56AA4009A95D7 /* ImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925511529F56AA4009A95D7 /* ImageLoadingView.swift */; };
+		B925511F29F58811009A95D7 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925511E29F58811009A95D7 /* ProductRow.swift */; };
+		B925512129F5BE4E009A95D7 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925512029F5BE4E009A95D7 /* SectionView.swift */; };
+		B925512329F5C407009A95D7 /* ImageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925512229F5C407009A95D7 /* ImageTitleView.swift */; };
+		B954EAF529E16BBF002729FA /* KuntikBuyerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EAF429E16BBF002729FA /* KuntikBuyerAppApp.swift */; };
+		B954EAF729E16BBF002729FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EAF629E16BBF002729FA /* ContentView.swift */; };
+		B954EAF929E16BC0002729FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B954EAF829E16BC0002729FA /* Assets.xcassets */; };
+		B954EAFC29E16BC0002729FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B954EAFB29E16BC0002729FA /* Preview Assets.xcassets */; };
+		B954EAFE29E16BC0002729FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EAFD29E16BC0002729FA /* Persistence.swift */; };
+		B954EB0129E16BC0002729FA /* KuntikBuyerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B954EAFF29E16BC0002729FA /* KuntikBuyerApp.xcdatamodeld */; };
+		B954EB0C29E16F63002729FA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB0B29E16F63002729FA /* MainView.swift */; };
+		B954EB1429E17D7F002729FA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB1329E17D7F002729FA /* ItemModel.swift */; };
+		B954EB1629E17DF3002729FA /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB1529E17DF3002729FA /* ListViewModel.swift */; };
+		B954EB1929E17EB3002729FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB1829E17EB3002729FA /* NetworkManager.swift */; };
+		B954EB2229E188FF002729FA /* SpecialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB2129E188FF002729FA /* SpecialView.swift */; };
+		B954EB2429E1895B002729FA /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB2329E1895B002729FA /* SupportView.swift */; };
+		B954EB2629E189F0002729FA /* CabinetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB2529E189F0002729FA /* CabinetView.swift */; };
+		B954EB2A29E19051002729FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB2929E19051002729FA /* Constants.swift */; };
+		B954EB2D29E190C7002729FA /* SpecialItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB2C29E190C7002729FA /* SpecialItemViewModel.swift */; };
+		B954EB3029E19444002729FA /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = B954EB2F29E19444002729FA /* colors.json */; };
+		B954EB3329E194BB002729FA /* SpecialItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954EB3229E194BB002729FA /* SpecialItemModel.swift */; };
+		B95CD39629F8420A0065CD0E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CD39529F8420A0065CD0E /* SplashView.swift */; };
+		B9944C2D29FAE39F006AA761 /* PlacedProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9944C2C29FAE39F006AA761 /* PlacedProduct.swift */; };
+		B994FB3729FE6F6200562530 /* PlaceOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B994FB3629FE6F6200562530 /* PlaceOrder.swift */; };
+		B997FE7C29E2A1FC004E780B /* SupportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997FE7B29E2A1FC004E780B /* SupportModel.swift */; };
+		B997FE7E29E2A209004E780B /* CompleteMessagaeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997FE7D29E2A209004E780B /* CompleteMessagaeViewModel.swift */; };
+		B997FE8329E2E15C004E780B /* MessageTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997FE8229E2E15C004E780B /* MessageTemplate.swift */; };
+		B997FEA429E335ED004E780B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997FEA329E335ED004E780B /* DetailView.swift */; };
+		B9A6695129F9A7A4000D7E22 /* SpectialTextSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6695029F9A7A4000D7E22 /* SpectialTextSection.swift */; };
+		B9A6695329F9A96B000D7E22 /* SpecialPickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6695229F9A96B000D7E22 /* SpecialPickerSection.swift */; };
+		B9FD441F29F4900500F54A41 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD441E29F4900500F54A41 /* CartManager.swift */; };
+		B9FD442129F4902900F54A41 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD442029F4902900F54A41 /* PaymentHandler.swift */; };
+		B9FD442329F4905600F54A41 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD442229F4905600F54A41 /* ProductCard.swift */; };
+		B9FD442529F4906C00F54A41 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD442429F4906C00F54A41 /* CartButton.swift */; };
+		B9FD442929F490A600F54A41 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD442829F490A600F54A41 /* PaymentButton.swift */; };
+		B9FD442B29F490DC00F54A41 /* CashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD442A29F490DC00F54A41 /* CashView.swift */; };
+		B9FD442D29F492C100F54A41 /* cloth.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FD442C29F492C100F54A41 /* cloth.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90C9B5829FFD23000025241 /* CustomTabViewSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewSelection.swift; sourceTree = "<group>"; };
+		B90E410229F9B01B008E1F02 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B90E410529F9C722008E1F02 /* CabinetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetModel.swift; sourceTree = "<group>"; };
+		B90E410829F9C734008E1F02 /* CabinetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetViewModel.swift; sourceTree = "<group>"; };
+		B925511329F55F38009A95D7 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B925511529F56AA4009A95D7 /* ImageLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingView.swift; sourceTree = "<group>"; };
+		B925511E29F58811009A95D7 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		B925512029F5BE4E009A95D7 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		B925512229F5C407009A95D7 /* ImageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleView.swift; sourceTree = "<group>"; };
+		B954EAF129E16BBF002729FA /* KuntikBuyerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuntikBuyerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B954EAF429E16BBF002729FA /* KuntikBuyerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuntikBuyerAppApp.swift; sourceTree = "<group>"; };
+		B954EAF629E16BBF002729FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B954EAF829E16BC0002729FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B954EAFB29E16BC0002729FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B954EAFD29E16BC0002729FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B954EB0029E16BC0002729FA /* KuntikBuyerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KuntikBuyerApp.xcdatamodel; sourceTree = "<group>"; };
+		B954EB0B29E16F63002729FA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B954EB1329E17D7F002729FA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B954EB1529E17DF3002729FA /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		B954EB1829E17EB3002729FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B954EB2129E188FF002729FA /* SpecialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialView.swift; sourceTree = "<group>"; };
+		B954EB2329E1895B002729FA /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		B954EB2529E189F0002729FA /* CabinetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetView.swift; sourceTree = "<group>"; };
+		B954EB2929E19051002729FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B954EB2C29E190C7002729FA /* SpecialItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialItemViewModel.swift; sourceTree = "<group>"; };
+		B954EB2F29E19444002729FA /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = colors.json; path = ../../../colors.json; sourceTree = "<group>"; };
+		B954EB3229E194BB002729FA /* SpecialItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialItemModel.swift; sourceTree = "<group>"; };
+		B95CD39529F8420A0065CD0E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B9944C2C29FAE39F006AA761 /* PlacedProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacedProduct.swift; sourceTree = "<group>"; };
+		B994FB3629FE6F6200562530 /* PlaceOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrder.swift; sourceTree = "<group>"; };
+		B997FE7B29E2A1FC004E780B /* SupportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportModel.swift; sourceTree = "<group>"; };
+		B997FE7D29E2A209004E780B /* CompleteMessagaeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteMessagaeViewModel.swift; sourceTree = "<group>"; };
+		B997FE8229E2E15C004E780B /* MessageTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTemplate.swift; sourceTree = "<group>"; };
+		B997FEA329E335ED004E780B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B9A6695029F9A7A4000D7E22 /* SpectialTextSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectialTextSection.swift; sourceTree = "<group>"; };
+		B9A6695229F9A96B000D7E22 /* SpecialPickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialPickerSection.swift; sourceTree = "<group>"; };
+		B9FD441E29F4900500F54A41 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		B9FD442029F4902900F54A41 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		B9FD442229F4905600F54A41 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		B9FD442429F4906C00F54A41 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		B9FD442829F490A600F54A41 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		B9FD442A29F490DC00F54A41 /* CashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CashView.swift; path = KuntikBuyerApp/Modules/MainModule/View/CashView.swift; sourceTree = SOURCE_ROOT; };
+		B9FD442C29F492C100F54A41 /* cloth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cloth.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B954EAEE29E16BBF002729FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90C9B5729FFD21400025241 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				B90C9B5829FFD23000025241 /* CustomTabViewSelection.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		B90E410129F9B007008E1F02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B90E410229F9B01B008E1F02 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B90E410429F9C713008E1F02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B90E410529F9C722008E1F02 /* CabinetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B90E410729F9C726008E1F02 /* CabinetViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B90E410829F9C734008E1F02 /* CabinetViewModel.swift */,
+			);
+			path = CabinetViewModel;
+			sourceTree = "<group>";
+		};
+		B925511229F55F29009A95D7 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				B925511329F55F38009A95D7 /* ImageLoader.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		B954EAE829E16BBF002729FA = {
+			isa = PBXGroup;
+			children = (
+				B954EAF329E16BBF002729FA /* KuntikBuyerApp */,
+				B954EAF229E16BBF002729FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B954EAF229E16BBF002729FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B954EAF129E16BBF002729FA /* KuntikBuyerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B954EAF329E16BBF002729FA /* KuntikBuyerApp */ = {
+			isa = PBXGroup;
+			children = (
+				B90E410129F9B007008E1F02 /* Extensions */,
+				B925511229F55F29009A95D7 /* ImageLoader */,
+				B9FD441D29F48E3600F54A41 /* CartManager */,
+				B954EB1729E17EA4002729FA /* Networking */,
+				B954EB2829E19033002729FA /* Constants */,
+				B954EB1A29E187B0002729FA /* Modules */,
+				B954EAF429E16BBF002729FA /* KuntikBuyerAppApp.swift */,
+				B954EAF629E16BBF002729FA /* ContentView.swift */,
+				B954EAF829E16BC0002729FA /* Assets.xcassets */,
+				B954EAFD29E16BC0002729FA /* Persistence.swift */,
+				B954EAFF29E16BC0002729FA /* KuntikBuyerApp.xcdatamodeld */,
+				B954EAFA29E16BC0002729FA /* Preview Content */,
+			);
+			path = KuntikBuyerApp;
+			sourceTree = "<group>";
+		};
+		B954EAFA29E16BC0002729FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B954EAFB29E16BC0002729FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B954EB0729E16C19002729FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB1329E17D7F002729FA /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B954EB0829E16C1E002729FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB1529E17DF3002729FA /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B954EB0929E16C29002729FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB0B29E16F63002729FA /* MainView.swift */,
+				B9FD442229F4905600F54A41 /* ProductCard.swift */,
+				B9FD442429F4906C00F54A41 /* CartButton.swift */,
+				B9FD442829F490A600F54A41 /* PaymentButton.swift */,
+				B925511529F56AA4009A95D7 /* ImageLoadingView.swift */,
+				B925512029F5BE4E009A95D7 /* SectionView.swift */,
+				B925512229F5C407009A95D7 /* ImageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B954EB0A29E16F40002729FA /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB0729E16C19002729FA /* Model */,
+				B954EB0829E16C1E002729FA /* ViewModel */,
+				B954EB0929E16C29002729FA /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		B954EB0D29E16FF7002729FA /* CashOutModule */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB0E29E16FFF002729FA /* CashView */,
+			);
+			path = CashOutModule;
+			sourceTree = "<group>";
+		};
+		B954EB0E29E16FFF002729FA /* CashView */ = {
+			isa = PBXGroup;
+			children = (
+				B9FD442A29F490DC00F54A41 /* CashView.swift */,
+				B925511E29F58811009A95D7 /* ProductRow.swift */,
+			);
+			path = CashView;
+			sourceTree = "<group>";
+		};
+		B954EB1729E17EA4002729FA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB1829E17EB3002729FA /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B954EB1A29E187B0002729FA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B90C9B5729FFD21400025241 /* CustomTabView */,
+				B95CD39429F841FC0065CD0E /* SplashView */,
+				B997FEA529E3391A004E780B /* DetailModule */,
+				B954EB1D29E188A1002729FA /* SpecialItemModule */,
+				B954EB1C29E187CC002729FA /* CabinetModule */,
+				B954EB1B29E187BF002729FA /* SupportChatModule */,
+				B954EB0D29E16FF7002729FA /* CashOutModule */,
+				B954EB0A29E16F40002729FA /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B954EB1B29E187BF002729FA /* SupportChatModule */ = {
+			isa = PBXGroup;
+			children = (
+				B997FE7A29E2A0C7004E780B /* Model */,
+				B997FE7929E2A0B9004E780B /* ViewModel */,
+				B954EB2029E188BD002729FA /* View */,
+			);
+			path = SupportChatModule;
+			sourceTree = "<group>";
+		};
+		B954EB1C29E187CC002729FA /* CabinetModule */ = {
+			isa = PBXGroup;
+			children = (
+				B90E410429F9C713008E1F02 /* Model */,
+				B90E410729F9C726008E1F02 /* CabinetViewModel */,
+				B954EB1F29E188B9002729FA /* View */,
+			);
+			path = CabinetModule;
+			sourceTree = "<group>";
+		};
+		B954EB1D29E188A1002729FA /* SpecialItemModule */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB3129E194AA002729FA /* Model */,
+				B954EB2729E18A50002729FA /* ViewModel */,
+				B954EB1E29E188B2002729FA /* View */,
+			);
+			path = SpecialItemModule;
+			sourceTree = "<group>";
+		};
+		B954EB1E29E188B2002729FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB2129E188FF002729FA /* SpecialView.swift */,
+				B9A6695029F9A7A4000D7E22 /* SpectialTextSection.swift */,
+				B9A6695229F9A96B000D7E22 /* SpecialPickerSection.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B954EB1F29E188B9002729FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB2529E189F0002729FA /* CabinetView.swift */,
+				B9944C2C29FAE39F006AA761 /* PlacedProduct.swift */,
+				B994FB3629FE6F6200562530 /* PlaceOrder.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B954EB2029E188BD002729FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB2329E1895B002729FA /* SupportView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B954EB2729E18A50002729FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B954EB2C29E190C7002729FA /* SpecialItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B954EB2829E19033002729FA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B9FD442C29F492C100F54A41 /* cloth.json */,
+				B954EB2F29E19444002729FA /* colors.json */,
+				B954EB2929E19051002729FA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B954EB3129E194AA002729FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B997FE8229E2E15C004E780B /* MessageTemplate.swift */,
+				B954EB3229E194BB002729FA /* SpecialItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B95CD39429F841FC0065CD0E /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				B95CD39529F8420A0065CD0E /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		B997FE7929E2A0B9004E780B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B997FE7D29E2A209004E780B /* CompleteMessagaeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B997FE7A29E2A0C7004E780B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B997FE7B29E2A1FC004E780B /* SupportModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B997FEA529E3391A004E780B /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				B997FEA629E33921004E780B /* View */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		B997FEA629E33921004E780B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B997FEA329E335ED004E780B /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9FD441D29F48E3600F54A41 /* CartManager */ = {
+			isa = PBXGroup;
+			children = (
+				B9FD441E29F4900500F54A41 /* CartManager.swift */,
+				B9FD442029F4902900F54A41 /* PaymentHandler.swift */,
+			);
+			path = CartManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B954EAF029E16BBF002729FA /* KuntikBuyerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B954EB0429E16BC0002729FA /* Build configuration list for PBXNativeTarget "KuntikBuyerApp" */;
+			buildPhases = (
+				B954EAED29E16BBF002729FA /* Sources */,
+				B954EAEE29E16BBF002729FA /* Frameworks */,
+				B954EAEF29E16BBF002729FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KuntikBuyerApp;
+			packageProductDependencies = (
+			);
+			productName = KuntikBuyerApp;
+			productReference = B954EAF129E16BBF002729FA /* KuntikBuyerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B954EAE929E16BBF002729FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B954EAF029E16BBF002729FA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B954EAEC29E16BBF002729FA /* Build configuration list for PBXProject "KuntikBuyerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B954EAE829E16BBF002729FA;
+			packageReferences = (
+			);
+			productRefGroup = B954EAF229E16BBF002729FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B954EAF029E16BBF002729FA /* KuntikBuyerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B954EAEF29E16BBF002729FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FD442D29F492C100F54A41 /* cloth.json in Resources */,
+				B954EB3029E19444002729FA /* colors.json in Resources */,
+				B954EAFC29E16BC0002729FA /* Preview Assets.xcassets in Resources */,
+				B954EAF929E16BC0002729FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B954EAED29E16BBF002729FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90C9B5929FFD23000025241 /* CustomTabViewSelection.swift in Sources */,
+				B954EAFE29E16BC0002729FA /* Persistence.swift in Sources */,
+				B954EB2629E189F0002729FA /* CabinetView.swift in Sources */,
+				B954EB3329E194BB002729FA /* SpecialItemModel.swift in Sources */,
+				B925512329F5C407009A95D7 /* ImageTitleView.swift in Sources */,
+				B954EB0129E16BC0002729FA /* KuntikBuyerApp.xcdatamodeld in Sources */,
+				B954EB1929E17EB3002729FA /* NetworkManager.swift in Sources */,
+				B9FD441F29F4900500F54A41 /* CartManager.swift in Sources */,
+				B997FE7E29E2A209004E780B /* CompleteMessagaeViewModel.swift in Sources */,
+				B9FD442B29F490DC00F54A41 /* CashView.swift in Sources */,
+				B9A6695329F9A96B000D7E22 /* SpecialPickerSection.swift in Sources */,
+				B954EB1429E17D7F002729FA /* ItemModel.swift in Sources */,
+				B954EAF729E16BBF002729FA /* ContentView.swift in Sources */,
+				B90E410629F9C722008E1F02 /* CabinetModel.swift in Sources */,
+				B954EB0C29E16F63002729FA /* MainView.swift in Sources */,
+				B9FD442129F4902900F54A41 /* PaymentHandler.swift in Sources */,
+				B925511429F55F38009A95D7 /* ImageLoader.swift in Sources */,
+				B9944C2D29FAE39F006AA761 /* PlacedProduct.swift in Sources */,
+				B954EB2A29E19051002729FA /* Constants.swift in Sources */,
+				B954EB1629E17DF3002729FA /* ListViewModel.swift in Sources */,
+				B954EB2429E1895B002729FA /* SupportView.swift in Sources */,
+				B95CD39629F8420A0065CD0E /* SplashView.swift in Sources */,
+				B997FE7C29E2A1FC004E780B /* SupportModel.swift in Sources */,
+				B925511F29F58811009A95D7 /* ProductRow.swift in Sources */,
+				B954EB2229E188FF002729FA /* SpecialView.swift in Sources */,
+				B925511629F56AA4009A95D7 /* ImageLoadingView.swift in Sources */,
+				B954EAF529E16BBF002729FA /* KuntikBuyerAppApp.swift in Sources */,
+				B997FEA429E335ED004E780B /* DetailView.swift in Sources */,
+				B90E410929F9C734008E1F02 /* CabinetViewModel.swift in Sources */,
+				B9FD442929F490A600F54A41 /* PaymentButton.swift in Sources */,
+				B9A6695129F9A7A4000D7E22 /* SpectialTextSection.swift in Sources */,
+				B954EB2D29E190C7002729FA /* SpecialItemViewModel.swift in Sources */,
+				B994FB3729FE6F6200562530 /* PlaceOrder.swift in Sources */,
+				B925512129F5BE4E009A95D7 /* SectionView.swift in Sources */,
+				B9FD442529F4906C00F54A41 /* CartButton.swift in Sources */,
+				B997FE8329E2E15C004E780B /* MessageTemplate.swift in Sources */,
+				B90E410329F9B01B008E1F02 /* Extensions.swift in Sources */,
+				B9FD442329F4905600F54A41 /* ProductCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B954EB0229E16BC0002729FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B954EB0329E16BC0002729FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B954EB0529E16BC0002729FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KuntikBuyerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = V77QWBZR65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.KuntikBuyerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B954EB0629E16BC0002729FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KuntikBuyerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = V77QWBZR65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApp.KuntikBuyerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B954EAEC29E16BBF002729FA /* Build configuration list for PBXProject "KuntikBuyerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954EB0229E16BC0002729FA /* Debug */,
+				B954EB0329E16BC0002729FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B954EB0429E16BC0002729FA /* Build configuration list for PBXNativeTarget "KuntikBuyerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954EB0529E16BC0002729FA /* Debug */,
+				B954EB0629E16BC0002729FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B954EAFF29E16BC0002729FA /* KuntikBuyerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B954EB0029E16BC0002729FA /* KuntikBuyerApp.xcdatamodel */,
+			);
+			currentVersion = B954EB0029E16BC0002729FA /* KuntikBuyerApp.xcdatamodel */;
+			path = KuntikBuyerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B954EAE929E16BBF002729FA /* Project object */;
+}
